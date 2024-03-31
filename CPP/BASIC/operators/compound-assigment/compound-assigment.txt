@@ -1,0 +1,6 @@
+
+expression	equivalent to...
+y += x;	y = y + x;
+x -= 5;	x = x - 5;
+x /= y;	x = x / y;
+price *= units + 1;	price = price * (units+1);

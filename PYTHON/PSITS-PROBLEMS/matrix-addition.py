@@ -7,7 +7,7 @@ for i in range(2):
     mx = []
     for _ in range(mx_size):
         row = []
-        row_input = input().split()
+        row_input = input().split() # kuhaon ta ang input nga string then i split para makuha ang mga element nga integer, ang splits kay murag tunga tungaon nato ang mga element
         for element in row_input:
             row.append(int(element))
         mx.append(row)

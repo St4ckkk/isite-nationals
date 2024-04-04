@@ -1,0 +1,14 @@
+
+++x;
+x+=1;
+x=x+1;
+
+
+
+Example 1	Example 2
+x = 3;
+y = ++x;
+// x contains 4, y contains 4
+x = 3;
+y = x++;
+// x contains 4, y contains 3

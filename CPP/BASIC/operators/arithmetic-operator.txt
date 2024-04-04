@@ -1,0 +1,7 @@
+
+operator	description
++	addition
+-	subtraction
+*	multiplication
+/	division
+%	modulo

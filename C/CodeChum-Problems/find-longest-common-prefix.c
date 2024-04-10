@@ -40,7 +40,7 @@ int main()
             if (strings[j][i] != c)
             {
                 // if dili parehas ang character sa position i sa first string sa uban nga string, print nato
-                printf("Longest common prefix: %.*s\n", prefixLength, strings[0]);
+                printf("Longest common prefix: %.*s\n", prefixLength, strings[0]); // gi chat gpt rako ni pano na i print ang prefix 
                 return 0;
             }
         }
@@ -49,7 +49,7 @@ int main()
     }
 
     // Print the longest common prefix
-    printf("Longest common prefix: %.*s\n", prefixLength, strings[0]); // gi chatgpt ra nako ni pano i print ang prefix
+    printf("Longest common prefix: %.*s\n", prefixLength, strings[0]); // gi chatgpt ra nako ni pano na i print ang prefix
 
     return 0;
 }
